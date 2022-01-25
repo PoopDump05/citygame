@@ -9,15 +9,15 @@ module cellModifiers
       title: "Nice enviroment",
       range: range,
       strength: strength,
-      targets: ["apartment", "office", "hotel"],
+      targets: ["apartment", "office", "hotel", "shopping"],
       effect:
       {
-        multiplier: 0.3
+        multiplier: 900000000.0
       },
       landValue:
       {
         radius: 4,
-        multiplier: 0.1,
+        multiplier: 99999999.0,
         scalingFN: function(strength){ return 1+Math.log(strength/2); },
       }
     });
